@@ -1,0 +1,6 @@
+framework module PDUSDK {
+  umbrella header "PDUSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
