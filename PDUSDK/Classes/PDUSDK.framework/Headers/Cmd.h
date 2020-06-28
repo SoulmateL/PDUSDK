@@ -10,15 +10,43 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class CmdModel,CmdOptionModel;
+
+
+/// 指令模型
+@interface CmdModel : NSObject
+
+/// 指令type
+@property (nonatomic,copy) NSString *type;
+
+/// 参数模型
+@property (nonatomic,strong) CmdOptionModel *option;
+
+@end
+
+/// 指令模型内的参数模型
+@interface CmdOptionModel : NSObject
+
+/// 单元key
+@property (nonatomic,copy) NSString *unitKey;
+
+/// widgetKey
+@property (nonatomic,copy) NSString *widgetKey;
+
+/// 方法名
+@property (nonatomic,copy) NSString *function;
+
+/// 参数
+@property (nonatomic,copy) NSDictionary *param;
+
+@end
+
 @interface Cmd : NSObject
 
 /// 执行指令
-/// @param cmdType 指令
-/// @param parameters 参数
+/// @param cmdModel 指令模型
 /// @param context 上下文
-+ (BOOL)executeCmdType:(NSString *)cmdType
-            parameters:(nullable NSDictionary *)parameters
-               context:(nullable id)context;
++ (BOOL)executeCmdWithCmdModel:(CmdModel *)cmdModel context:(nullable id)context;
 
 @end
 

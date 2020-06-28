@@ -15,17 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 @interface PDUSDKApi : NSObject
 
 
-+ (instancetype)shared;
-
-/// 启动
-- (void)startUp;
-
 /// 控制是否开启输出日志
 /// @param enable 默认NO
-- (void)setLogEnable:(BOOL)enable;
++ (void)setLogEnable:(BOOL)enable;
 
 /// 获取日志输出状态
-- (BOOL)getLogEnable;
++ (BOOL)getLogEnable;
 
 
 

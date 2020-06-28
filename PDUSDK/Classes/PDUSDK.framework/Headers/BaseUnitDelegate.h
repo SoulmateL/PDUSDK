@@ -11,6 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol BaseUnitDelegate <NSObject>
+
+@optional
+
 /// 打开单元
 /// @param parameters 参数
 /// @param context 上下文
@@ -31,18 +34,6 @@ NS_ASSUME_NONNULL_BEGIN
                              context:(nullable id)context;
 
 
-/// 返回上一个页面
-/// @param parameters 参数
-/// @param context 上下文
-+ (void)backUnitWithParameters:(nullable NSDictionary *)parameters
-                       context:(nullable id)context;
-
-
-/// 打开Widget
-/// @param parameters 参数
-/// @param context 上下文
-+ (void)openWidgetUnitWithParameters:(nullable NSDictionary *)parameters
-                             context:(nullable id)context;
 
 @end
 
