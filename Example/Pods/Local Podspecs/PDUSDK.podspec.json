@@ -1,6 +1,6 @@
 {
   "name": "PDUSDK",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "summary": "PUDSDK3.0",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/SoulmateL/PDUSDK",
@@ -13,13 +13,14 @@
   },
   "source": {
     "git": "https://github.com/SoulmateL/PDUSDK.git",
-    "tag": "0.8.0"
+    "tag": "0.9.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "vendored_frameworks": "PDUSDK/Classes/PDUSDK.framework",
-  "public_header_files": "PDUSDK/Classes/PDUSDK.framework/Headers",
+  "source_files": "PDUSDK/Classes/*.framework/Headers/*.{h}",
+  "vendored_frameworks": "PDUSDK/Classes/*.framework",
+  "public_header_files": "PDUSDK/Classes/*.framework/Headers/*.{h}",
   "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [
