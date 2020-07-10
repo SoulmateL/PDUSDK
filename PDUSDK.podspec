@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PDUSDK'
-  s.version          = '0.9.0'
+  s.version          = '0.9.1'
   s.summary          = 'PUDSDK3.0'
 
 # This description is used to generate tags and improve search results.
@@ -30,14 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PDUSDK/Classes/*.framework/Headers/*.{h}'
-  s.vendored_frameworks = 'PDUSDK/Classes/*.framework'
-  
+  s.source_files = 'PDUSDK.framework/Headers/*.{h}'
+  s.vendored_frameworks = 'PDUSDK.framework'
+
   # s.resource_bundles = {
   #   'PDUSDK' => ['PDUSDK/Assets/*.png']
   # }
-
-   s.public_header_files = 'PDUSDK/Classes/*.framework/Headers/*.{h}'
+  s.xcconfig = {
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/PDUSDK.framework/Headers/"
+  }
+  #s.public_header_files = 'PDUSDK/Classes/*.framework/Headers/*.{h}'
   s.frameworks = 'UIKit'
   s.dependency 'AFNetworking', '~> 4.0.1'
   s.dependency 'FMDB', '~> 2.7.5'
