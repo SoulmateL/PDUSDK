@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 打开Widget
 /// @param parameters 参数
 /// @param context 上下文
-+ (void)openWidgetActionWithParameters:(nullable NSDictionary *)parameters
+- (void)openWidgetActionWithParameters:(nullable NSDictionary *)parameters
                                context:(nullable id)context;
 @end
 
