@@ -20,10 +20,6 @@
 		<data>
 		4PWaSGSuSZGWYKxU3BYL11Ft+bw=
 		</data>
-		<key>Headers/BaseUnitDelegate.h</key>
-		<data>
-		MVxaLF6LAHL6UEfRVgJz0oS+ujE=
-		</data>
 		<key>Headers/Cmd.h</key>
 		<data>
 		kyFFZXoWcZkZmHcGQVcIzxx6xHc=
@@ -34,7 +30,7 @@
 		</data>
 		<key>Headers/NSObject+Unit.h</key>
 		<data>
-		6b6/MY8k/1cWtJlJZnnQPIh3SAU=
+		aZKGP//tCIAmfoApLAJ+WODG2xs=
 		</data>
 		<key>Headers/PDUSDK.h</key>
 		<data>
@@ -46,7 +42,7 @@
 		</data>
 		<key>Headers/Unit.h</key>
 		<data>
-		adVLuDErtDVVzrsXMqNG8YwYGzY=
+		N4D2y62L++K4fJPwTVo7vn9KFME=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -103,17 +99,6 @@
 			VJWDNP+PLef6tsx0lvUngPYgyBLSHv05ksG4XyvIEIg=
 			</data>
 		</dict>
-		<key>Headers/BaseUnitDelegate.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MVxaLF6LAHL6UEfRVgJz0oS+ujE=
-			</data>
-			<key>hash2</key>
-			<data>
-			hKZjJ8P6vIXq69+78WqHo7DwwYFcKg4cNIUTzSuUV7Q=
-			</data>
-		</dict>
 		<key>Headers/Cmd.h</key>
 		<dict>
 			<key>hash</key>
@@ -140,11 +125,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6b6/MY8k/1cWtJlJZnnQPIh3SAU=
+			aZKGP//tCIAmfoApLAJ+WODG2xs=
 			</data>
 			<key>hash2</key>
 			<data>
-			GnJ+q3i1Vds9gD3x0hp0oULihnikPT7BzvLj1ep/GrQ=
+			OH9lEl7hPEYxvjNtYMesTn2uJNCmazHbOfN4rGNdcME=
 			</data>
 		</dict>
 		<key>Headers/PDUSDK.h</key>
@@ -173,11 +158,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			adVLuDErtDVVzrsXMqNG8YwYGzY=
+			N4D2y62L++K4fJPwTVo7vn9KFME=
 			</data>
 			<key>hash2</key>
 			<data>
-			KDe+cLGht/HPTbOynRh8D6n6BJxcyg1tdbVyxceItP4=
+			Dryud4w4uhqLPq7OfTQnAA2D2kdhMvnEnpvfYaHpzzg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Unit.h"
+
 NS_ASSUME_NONNULL_BEGIN
+
+@class Unit;
 
 @interface NSObject (Unit)
 

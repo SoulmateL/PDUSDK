@@ -8,11 +8,37 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "BaseUnitDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Unit : NSObject<BaseUnitDelegate>
+@protocol UnitDelegate <NSObject>
+
+@optional
+
+/// 打开单元
+/// @param parameters 参数
+/// @param context 上下文
++ (void)openUnitWithParameters:(nullable NSDictionary *)parameters
+                       context:(nullable id)context;
+
+
+/// 关闭单元
+/// @param parameters 参数
+/// @param context 上下文
+- (void)closeUnitWithParameters:(nullable NSDictionary *)parameters
+                        context:(nullable id)context;
+
+/// 执行单元方法
+/// @param parameters 参数
+/// @param context 上下文
++ (void)doFunctionUnitWithParameters:(nullable NSDictionary *)parameters
+                             context:(nullable id)context;
+
+
+
+@end
+
+@interface Unit : NSObject<UnitDelegate>
 
 /// 单元key等于单元类名
 @property (nonatomic, readonly, copy) NSString *unitKey;
@@ -36,7 +62,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setDefaultProperty;
 
 
-/// 打开单元界面 默认push到单元主界面 需要自定义重写此方法
+/// 打开单元界面 需要自定义重写此方法
 /// @param parameters 参数
 /// @param context 上下文
 - (void)openWithParameters:(NSDictionary *)parameters
