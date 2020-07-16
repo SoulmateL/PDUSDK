@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/BaseOpenWidgetDelegate.h</key>
 		<data>
-		v6ndCk80j9ywaoWOL9inlXba4RE=
+		4PWaSGSuSZGWYKxU3BYL11Ft+bw=
 		</data>
 		<key>Headers/BaseUnitDelegate.h</key>
 		<data>
-		+tAT84KzEXtbbfk15pEInT9PbLM=
+		MVxaLF6LAHL6UEfRVgJz0oS+ujE=
 		</data>
 		<key>Headers/Cmd.h</key>
 		<data>
@@ -32,13 +32,21 @@
 		<data>
 		cOurxClweTpAYynf494hA7aERO0=
 		</data>
+		<key>Headers/NSObject+Unit.h</key>
+		<data>
+		6b6/MY8k/1cWtJlJZnnQPIh3SAU=
+		</data>
 		<key>Headers/PDUSDK.h</key>
 		<data>
-		V6alkAVF+qcBFtgAGhRtGTlKMgo=
+		5QN9VMjHOQbCSXRGnJgH5GNw/JY=
 		</data>
 		<key>Headers/PDUSDKApi.h</key>
 		<data>
 		4paPFmcr2CslO7pkcK9vWDz575w=
+		</data>
+		<key>Headers/Unit.h</key>
+		<data>
+		adVLuDErtDVVzrsXMqNG8YwYGzY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -88,22 +96,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v6ndCk80j9ywaoWOL9inlXba4RE=
+			4PWaSGSuSZGWYKxU3BYL11Ft+bw=
 			</data>
 			<key>hash2</key>
 			<data>
-			odIKBm1aIGKWFg4VfN0hGEcPSbQShnyVxjaaPzVmvhE=
+			VJWDNP+PLef6tsx0lvUngPYgyBLSHv05ksG4XyvIEIg=
 			</data>
 		</dict>
 		<key>Headers/BaseUnitDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+tAT84KzEXtbbfk15pEInT9PbLM=
+			MVxaLF6LAHL6UEfRVgJz0oS+ujE=
 			</data>
 			<key>hash2</key>
 			<data>
-			qPQPk3ZguhNhpCnTQ3zYNl6FcDARTA4xzoDR/cPwqy4=
+			hKZjJ8P6vIXq69+78WqHo7DwwYFcKg4cNIUTzSuUV7Q=
 			</data>
 		</dict>
 		<key>Headers/Cmd.h</key>
@@ -128,15 +136,26 @@
 			9D4wBd8JyQO3Qkwmmq0DSHFLd4ZsCVDDLd7mVgpmBkQ=
 			</data>
 		</dict>
+		<key>Headers/NSObject+Unit.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6b6/MY8k/1cWtJlJZnnQPIh3SAU=
+			</data>
+			<key>hash2</key>
+			<data>
+			GnJ+q3i1Vds9gD3x0hp0oULihnikPT7BzvLj1ep/GrQ=
+			</data>
+		</dict>
 		<key>Headers/PDUSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V6alkAVF+qcBFtgAGhRtGTlKMgo=
+			5QN9VMjHOQbCSXRGnJgH5GNw/JY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0rj5d9JDBppFjDbfTlHePeQx0W+nOuG06vreoHwfAHU=
+			TOi/e91zP57RD8+z6ppCVMGzKte3tb/dQ+wJrPKDI+c=
 			</data>
 		</dict>
 		<key>Headers/PDUSDKApi.h</key>
@@ -148,6 +167,17 @@
 			<key>hash2</key>
 			<data>
 			Lq7wvPRxQws44IQCx2SQTQf1HNGcTt1LFYt5L+60uGE=
+			</data>
+		</dict>
+		<key>Headers/Unit.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			adVLuDErtDVVzrsXMqNG8YwYGzY=
+			</data>
+			<key>hash2</key>
+			<data>
+			KDe+cLGht/HPTbOynRh8D6n6BJxcyg1tdbVyxceItP4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

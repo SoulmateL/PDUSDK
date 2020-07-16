@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 关闭单元
 /// @param parameters 参数
 /// @param context 上下文
-+ (void)closeUnitWithParameters:(nullable NSDictionary *)parameters
+- (void)closeUnitWithParameters:(nullable NSDictionary *)parameters
                         context:(nullable id)context;
 
 /// 执行单元方法
