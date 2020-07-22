@@ -11,16 +11,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class ApiModel,ApiErrorModel;
+@class ApiResponseModel;
 
-@interface ApiErrorModel : NSObject
+@interface ApiResponseModel : NSObject
+@property (nonatomic, strong, nullable) NSDictionary *data;
 @property (nonatomic, assign) NSInteger code;
-@property (nonatomic, copy) NSString *message;
-@end
-
-@interface ApiModel : NSObject
-@property (nonatomic, copy, nullable) NSDictionary *data;
-@property (nonatomic, strong, nullable) ApiErrorModel *error;
+@property (nonatomic, strong, nullable) NSString *message;
 @end
 
 /// 网络状态
@@ -33,10 +29,10 @@ typedef NS_ENUM(NSInteger, PDUNetworkReachabilityStatus) {
 
 
 /// 请求成功回调
-typedef void(^PDUSuccessBlcok)(ApiModel *successModel);
+typedef void(^PDUSuccessBlcok)(ApiResponseModel *successModel);
 
 /// 请求失败回调
-typedef void(^PDUFailureBlcok)(ApiModel *failureModel);
+typedef void(^PDUFailureBlcok)(ApiResponseModel *failureModel);
 
 @interface Api : NSObject
 
