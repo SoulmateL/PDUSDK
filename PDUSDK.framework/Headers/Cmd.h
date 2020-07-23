@@ -10,8 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class CmdModel,CmdOptionModel;
+extern NSString * const kOpenUnitKey;
+extern NSString * const kCloseUnitKey;
+extern NSString * const kBackActiontKey;
+extern NSString * const kDoFunctionKey;
+extern NSString * const kOpenWidgetKey;
 
+
+@class CmdModel,CmdOptionModel;
 
 /// 指令模型
 @interface CmdModel : NSObject

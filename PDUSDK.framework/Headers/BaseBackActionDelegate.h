@@ -12,10 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol BaseBackActionDelegate <NSObject>
 /// 返回上一个页面
-/// @param parameters 参数
+/// @param cmdOption 参数
 /// @param context 上下文
-- (void)backActionWithParameters:(nullable NSDictionary *)parameters
-                         context:(nullable id)context;
+- (void)backActionWithCmdOption:(nullable CmdOptionModel *)cmdOption
+                        context:(nullable id)context;
 
 
 @end

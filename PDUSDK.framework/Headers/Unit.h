@@ -8,31 +8,32 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
 NS_ASSUME_NONNULL_BEGIN
+
+@class CmdOptionModel;
 
 @protocol UnitDelegate <NSObject>
 
 @optional
 
 /// 打开单元
-/// @param parameters 参数
+/// @param cmdOption 参数
 /// @param context 上下文
-+ (void)openUnitWithParameters:(nullable NSDictionary *)parameters
-                       context:(nullable id)context;
++ (void)openUnitWithCmdOption:(nullable CmdOptionModel *)cmdOption
+                      context:(nullable id)context;
 
 
 /// 关闭单元
-/// @param parameters 参数
+/// @param cmdOption 参数
 /// @param context 上下文
-- (void)closeUnitWithParameters:(nullable NSDictionary *)parameters
-                        context:(nullable id)context;
+- (void)closeUnitWithCmdOption:(nullable CmdOptionModel *)cmdOption
+                       context:(nullable id)context;
 
 /// 执行单元方法
-/// @param parameters 参数
+/// @param cmdOption 参数
 /// @param context 上下文
-+ (void)doFunctionUnitWithParameters:(nullable NSDictionary *)parameters
-                             context:(nullable id)context;
++ (void)doFunctionUnitWithCmdOption:(nullable CmdOptionModel *)cmdOption
+                            context:(nullable id)context;
 
 
 
@@ -63,10 +64,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /// 打开单元界面 需要自定义重写此方法
-/// @param parameters 参数
+/// @param cmdOption 参数
 /// @param context 上下文
-- (void)openWithParameters:(NSDictionary *)parameters
-                   context:(id)context;
+- (void)openWithCmdOption:(nullable CmdOptionModel *)cmdOption
+                  context:(id)context;
 
 @end
 

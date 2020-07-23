@@ -12,10 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol BaseOpenWidgetDelegate <NSObject>
 /// 打开Widget
-/// @param parameters 参数
+/// @param cmdOption 参数
 /// @param context 上下文
-- (void)openWidgetActionWithParameters:(nullable NSDictionary *)parameters
-                               context:(nullable id)context;
+- (void)openWidgetActionWithCmdOption:(nullable CmdOptionModel *)cmdOption
+                              context:(nullable id)context;
 @end
 
 NS_ASSUME_NONNULL_END
