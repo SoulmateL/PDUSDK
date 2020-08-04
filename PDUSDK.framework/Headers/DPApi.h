@@ -146,6 +146,12 @@ NS_ASSUME_NONNULL_BEGIN
                     values:(nullable NSDictionary *)values
          completionHandler:(nullable void(^)(BOOL isSuccess))completionHandler;
 
+/// 在某个数据库下执行sql语句
+/// @param sql SQL语句
+/// @param dbName 数据库
++ (void)executeInDbName:(NSString *)dbName
+                    sql:(NSString *)sql;
+
 /// 关闭数据库
 + (void)close;
 
