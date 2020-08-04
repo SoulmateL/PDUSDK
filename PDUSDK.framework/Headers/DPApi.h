@@ -134,7 +134,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark 同步操作 回调到主线程
 
-/// 同步操作 操作数据 dbName 数据库名;tableName 表名;key 主键;values 插入数据的键值对
+/// 同步操作 操作数据 dbName 数据库名;tableName 表名;key 主键;values 插入数据的键值对  更新或新增数据，value需要包含主键的键值对
 /// @param dbName 数据库名
 /// @param tableName 表名
 /// @param key 主键
