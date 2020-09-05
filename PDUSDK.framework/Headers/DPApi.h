@@ -134,23 +134,43 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark 同步操作 回调到主线程
 
-/// 同步操作 操作数据 dbName 数据库名;tableName 表名;key 主键;values 插入数据的键值对  更新或新增数据，value需要包含主键的键值对
+/// 同步操作 操作数据 dbName 数据库名;tableName 表名;keyValue 主键值;values 插入数据的键值对  更新或新增数据，value需要包含主键的键值对
 /// @param dbName 数据库名
 /// @param tableName 表名
-/// @param key 主键
+/// @param keyValue 主键值
 /// @param values 数据 value为空则删除记录
 /// @param completionHandler 回调
 + (void)setValueWithDbName:(NSString *)dbName
                  tableName:(NSString *)tableName
-                       key:(NSString *)key
+                  keyValue:(NSString *)keyValue
+                    values:(nullable NSDictionary *)values
+         completionHandler:(nullable void(^)(BOOL isSuccess))completionHandler;
+
+/// 同步操作 操作数据 dbName 数据库名;tableName 表名;primaryKey 主键;key 键值;values 插入数据的键值对  更新或新增数据，value需要包含主键的键值对
+/// @param dbName 数据库名
+/// @param tableName 表名
+/// @param primaryKey 主键
+/// @param keyValue 键值
+/// @param values 数据 value为空则删除记录
+/// @param completionHandler 回调
++ (void)setValueWithDbName:(NSString *)dbName
+                 tableName:(NSString *)tableName
+                primaryKey:(NSString *)primaryKey
+                  keyValue:(NSString *)keyValue
                     values:(nullable NSDictionary *)values
          completionHandler:(nullable void(^)(BOOL isSuccess))completionHandler;
 
 /// 在某个数据库下执行sql语句
 /// @param sql SQL语句
 /// @param dbName 数据库
-+ (void)executeInDbName:(NSString *)dbName
++ (BOOL)executeInDbName:(NSString *)dbName
                     sql:(NSString *)sql;
+
+/// 在某个数据库下查询sql语句
+/// @param sql SQL语句
+/// @param dbName 数据库
++ (NSArray<NSDictionary *> *)queryInDbName:(NSString *)dbName
+                                       sql:(NSString *)sql;
 
 /// 关闭数据库
 + (void)close;

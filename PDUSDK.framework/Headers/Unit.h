@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly, copy) NSString *unitKey;
 
 /// 单元所属容器KEY，普通单元不属于任何容器设为null
-@property (nonatomic, strong) NSString *containerKey;
+@property (nonatomic, copy) NSString *containerKey;
 
 /// 该单元是否作为栈底 默认NO
 @property (nonatomic, assign) BOOL rootStack;
