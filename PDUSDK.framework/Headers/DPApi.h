@@ -139,10 +139,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param tableName 表名
 /// @param keyValue 主键值 keyValue = nil 则为新增一条记录
 /// @param values 数据 value为空则删除记录
+/// @param completionHandler 回调
 + (void)setValueWithDbName:(NSString *)dbName
                  tableName:(NSString *)tableName
                   keyValue:(nullable NSString *)keyValue
-                    values:(nullable NSDictionary *)values;
+                    values:(nullable NSDictionary *)values
+         completionHandler:(nullable void(^)(BOOL isSuccess))completionHandler;
 
 
 /// 在某个数据库下执行sql语句
