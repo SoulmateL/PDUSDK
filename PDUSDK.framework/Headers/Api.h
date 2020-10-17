@@ -81,8 +81,8 @@ typedef void(^PDUFailureBlcok)(ApiResponseModel *failureModel);
 + (void)startRequetWithInterfaceName:(nonnull NSString *)interfaceName
                           parameters:(nullable NSDictionary *)parameters
                               header:(nullable NSDictionary *)header
-                             Success:(PDUSuccessBlcok)success
-                             failure:(PDUFailureBlcok)failure;
+                             Success:(nullable PDUSuccessBlcok)success
+                             failure:(nullable PDUFailureBlcok)failure;
 
 /// 类方法 接口名:interfaceName  请求参数:parameters  成功回调:success  失败回调:failure
 /// @param interfaceName 接口名
@@ -91,8 +91,8 @@ typedef void(^PDUFailureBlcok)(ApiResponseModel *failureModel);
 /// @param failure 失败回调
 + (void)startRequetWithInterfaceName:(nonnull NSString *)interfaceName
                           parameters:(nullable NSDictionary *)parameters
-                             Success:(PDUSuccessBlcok)success
-                             failure:(PDUFailureBlcok)failure;
+                             Success:(nullable PDUSuccessBlcok)success
+                             failure:(nullable PDUFailureBlcok)failure;
 
 
 /// 类方法 接口名:interfaceName  成功回调:success  失败回调:failure
@@ -100,8 +100,8 @@ typedef void(^PDUFailureBlcok)(ApiResponseModel *failureModel);
 /// @param success 成功回调
 /// @param failure 失败回调
 + (void)startRequetWithInterfaceName:(nonnull NSString *)interfaceName
-                             Success:(PDUSuccessBlcok)success
-                             failure:(PDUFailureBlcok)failure;
+                             Success:(nullable PDUSuccessBlcok)success
+                             failure:(nullable PDUFailureBlcok)failure;
 
 
 
