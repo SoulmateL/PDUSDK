@@ -1,6 +1,6 @@
 {
   "name": "PDUSDK",
-  "version": "1.2.3",
+  "version": "1.2.5",
   "summary": "PUDSDK3.0",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/SoulmateL/PDUSDK",
@@ -13,13 +13,19 @@
   },
   "source": {
     "git": "https://github.com/SoulmateL/PDUSDK.git",
-    "tag": "1.2.3"
+    "tag": "1.2.5"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "PDUSDK.framework/Headers/*.{h}",
   "vendored_frameworks": "PDUSDK.framework",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
   "xcconfig": {
     "HEADER_SEARCH_PATHS": "${PODS_ROOT}/PDUSDK/PDUSDK.framework/Headers/"
   },
