@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PDUSDK'
-  s.version          = '1.3.4'
-  s.summary          = 'PUDSDK3.0  xcode11.7'
+  s.version          = '1.3.5'
+  s.summary          = 'PUDSDK3.0  xcode11.7 debug'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
