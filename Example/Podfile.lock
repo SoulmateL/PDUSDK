@@ -17,7 +17,7 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - PDUSDK (1.3.6):
+  - PDUSDK (1.3.7):
     - AFNetworking (~> 4.0.1)
     - FMDB (~> 2.7.5)
 
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  PDUSDK: 99adde572586426f71a1848672f90143a9358023
+  PDUSDK: 1b8000a7af4e59ec5b55c3b0cc07796410e7a5d2
 
 PODFILE CHECKSUM: 4e0f7d30579b350bbe9656337fdadfd1518c39d3
 
