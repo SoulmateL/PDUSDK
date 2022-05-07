@@ -22,7 +22,6 @@ FOUNDATION_EXPORT const unsigned char PDUSDKVersionString[];
 #import <PDUSDK/Unit.h>
 #import <PDUSDK/DPApi.h>
 #import <PDUSDK/PDUSDKApi.h>
-#import <PDUSDK/NSObject+Unit.h>
 #import <PDUSDK/BaseBackActionDelegate.h>
 #import <PDUSDK/BaseOpenWidgetDelegate.h>
 

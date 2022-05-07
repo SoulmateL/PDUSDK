@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)getUniqueIdentifier;
 
 /// 获取当前设备型号
-+ (NSString *)getCurrentDeviceModel;
++ (NSString *)getDeviceIdentifier;
 
 /// 获取手机系统版本
 + (NSString *)getSystemVersion;

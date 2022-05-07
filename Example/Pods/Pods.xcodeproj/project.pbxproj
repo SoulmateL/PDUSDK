@@ -13,8 +13,8 @@
 			buildPhases = (
 			);
 			dependencies = (
-				CA1B386AA121D6E8D818FA6118045AAC /* PBXTargetDependency */,
-				025529DED4A133C013F7A2D30D7D81C6 /* PBXTargetDependency */,
+				432C0E4C506CD6F3BEA012C9539EE9AF /* PBXTargetDependency */,
+				F6470C254E2B65A6FF74A7B749224DD7 /* PBXTargetDependency */,
 			);
 			name = PDUSDK;
 		};
@@ -77,88 +77,89 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C8B52706A9A5D1866E8FED37E62D9E5 /* PBXContainerItemProxy */ = {
+		13F9C756E3BD524FC3C79E0C19651E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		2CCF9897A38046FDC17B28F2F12C6E73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E877FCAE129C8954EE085550165FA927;
 			remoteInfo = PDUSDK;
 		};
-		1EF02A549CCA8E37D715E0AB141D13A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		26BBE12C7B3ED4833232509088B202B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		69CFC42824665227A0603CDD15DB0E64 /* PBXContainerItemProxy */ = {
+		4D3C096FF1F69A07EB027F7E89C769BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		9779EC865189877C3A326963F72907D3 /* PBXContainerItemProxy */ = {
+		6822FED32CC7F296ED2E5999BCC7051A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
+		};
+		E99653C7ABBBFCBA450BA0F32D5B55F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015AA31E9783104FFA31812B2D20B7B7 /* BaseBackActionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseBackActionDelegate.h; path = PDUSDK.framework/Headers/BaseBackActionDelegate.h; sourceTree = "<group>"; };
 		0178F9AC44A596D8E4D98DE64A485AF6 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		01E2D084CCECC2852029C0F5A40BDA13 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		08C9239B1AFA8DB7F1F77C75F8BB8679 /* PDUSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDUSDK.h; path = PDUSDK.framework/Headers/PDUSDK.h; sourceTree = "<group>"; };
 		0BC4627B5A1562A78146B03036150740 /* Pods-PDUSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDUSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		0C9D5CD3749E56ABF22C948486720B16 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		11777EC7D69884C1C85212639CD53CFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		135C0AAF2793A40B5E06699C3AE31F8B /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		153119EA5A1C849BB5BC53D05B8603E6 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		168EDCB9F109EB669DC2A95C81C754CF /* PDUSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDUSDK.release.xcconfig; sourceTree = "<group>"; };
 		17A86827C9D2E88AB05D684052DF5A5A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		1B4EAB8F56629FCE06F661C7576374D2 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		1EF0C504B68A8A2694FDEB56160C3FB7 /* PDUSDKApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDUSDKApi.h; path = PDUSDK.framework/Headers/PDUSDKApi.h; sourceTree = "<group>"; };
-		1FABB87F53B5439C92B39D00E85C4C5E /* App.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = App.h; path = PDUSDK.framework/Headers/App.h; sourceTree = "<group>"; };
+		1B72994D1BF0700F2D37ACEFBAC30CCA /* Api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Api.h; path = PDUSDK.framework/Headers/Api.h; sourceTree = "<group>"; };
 		218C726CD738ABD507F3A41AC3B63833 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		2533360451F198B9DCA2E7B1A3A28E5C /* Api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Api.h; path = PDUSDK.framework/Headers/Api.h; sourceTree = "<group>"; };
-		277CB924B76606DCDF0E3082D2D23AB9 /* BaseOpenWidgetDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseOpenWidgetDelegate.h; path = PDUSDK.framework/Headers/BaseOpenWidgetDelegate.h; sourceTree = "<group>"; };
+		2892CAF12D6625C1B336BB3DF6201509 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2BE37943C459DA2E9E12A732677576F2 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		2F6023D6B06147E3F45CD1C50D921487 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		33A16CAD487DB18E0AF80F5CDF04154A /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		34798B1ECAA45CAE946A0469C0DB542B /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		36A1C22A9098AEBEEBFD5BF1280D4B62 /* Cmd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cmd.h; path = PDUSDK.framework/Headers/Cmd.h; sourceTree = "<group>"; };
 		3A24716C53136742392E1A567D7A3184 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		428D09729021B2FB847B5BA019217058 /* PDUSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PDUSDK.framework; sourceTree = "<group>"; };
 		43AE35454709A095396CB33C8794C68C /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		454840AD619A1FE0A819BCA00F9DB31C /* Unit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Unit.h; path = PDUSDK.framework/Headers/Unit.h; sourceTree = "<group>"; };
+		4BC324BF4A283B073D436217D8C42981 /* App.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = App.h; path = PDUSDK.framework/Headers/App.h; sourceTree = "<group>"; };
 		57015F6A0AE89B0ACE289791E447AEE1 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		581B7FF5A8F1E57324782759EC8FB8F3 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		5C32317A5EDFF77513E1FD7D25217ED6 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		5CEBB2ACB3C30FF91ECE89D238F98453 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		5ED04CE1CD73DB7B03E98199E5042D64 /* Cmd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cmd.h; path = PDUSDK.framework/Headers/Cmd.h; sourceTree = "<group>"; };
 		632E637880C593FA7E3B0B2A9B74D178 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		659F1B1F8F04BF56D0FF3E45F00168F1 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		661616C0542818D0B4FA71764C10F44E /* Pods-PDUSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDUSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		663EA14287ADF103D1DB360D4B17C8EC /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		6B8553153CDC25E7B8FADFE5BA01D0C2 /* PDUSDKApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDUSDKApi.h; path = PDUSDK.framework/Headers/PDUSDKApi.h; sourceTree = "<group>"; };
 		6CA7AE9DA90FE84E7424B6E19BAC11AA /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		6DD721994F3D035556A3A354B124A8C9 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		706DAF0FA96E6321684C554907C37193 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		71C37B1419CB56FE9AAFF601ED75F178 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7364496FF322FDCCE1145A5035B9997D /* DPApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPApi.h; path = PDUSDK.framework/Headers/DPApi.h; sourceTree = "<group>"; };
 		73DFBE35DA621C3A14FE50571FD5BA39 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		748B782481DAEE366A2B97C06AD7F441 /* Pods-PDUSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDUSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7845098DCE77842E03D3DACD4DC5B71A /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		786358DE2481AE3B33ECD9AABEC5B1C1 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		79EB0E5E88805FC135E6CB1CEE7BC2A1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		848311E15C5D369C4EE6FB3D3A244BB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		87458140AA3CB51A0F8C794AF298D8CF /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		8853B2B91EA847D8AD246F59044EB8A5 /* Pods-PDUSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PDUSDK_Tests"; path = Pods_PDUSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88655FC2F518D2B056AA69F37CE028BF /* PDUSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PDUSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8A5CD417FE20B951B2B50992A9FA34C7 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		8BBB82864B8E094D141530171F758A03 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		94033A389D419049F28FA85694FBE0B3 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
@@ -166,32 +167,29 @@
 		993E1B61262EE6E6B65D55D8EF6EA97B /* Pods-PDUSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDUSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FC3F64C64E3F476F329C4B89E76AB87 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		9FF25A276996A8E1158DB48B508F6FDF /* BaseBackActionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseBackActionDelegate.h; path = PDUSDK.framework/Headers/BaseBackActionDelegate.h; sourceTree = "<group>"; };
 		A1B5E56434D390DEB2D53371316E9629 /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
 		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A765FE5E564F1BA085AB83D565BA586E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		A7D18E4968931A445DC7DC76009B4E66 /* NSObject+Unit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Unit.h"; path = "PDUSDK.framework/Headers/NSObject+Unit.h"; sourceTree = "<group>"; };
+		A7D92859E94683866C064647109B3256 /* PDUSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDUSDK.debug.xcconfig; sourceTree = "<group>"; };
 		A9678C61069F5DD9310CDC6A8BE199CA /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		AA459C945EE379F79BC2BF9209970FC9 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		AD60E2E358961463B1621BF0EB75D237 /* PDUSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDUSDK.h; path = PDUSDK.framework/Headers/PDUSDK.h; sourceTree = "<group>"; };
 		B123B0F07A8051048789C0F8BAF22B77 /* Pods-PDUSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDUSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3683F8C87FDC56D7E69FD3C69701D52 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		B3900FFBA6B447A137C6477178181148 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		B3A140AF899D79048DF1A1B3765BA808 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		B3AD3AC3F614CBF76B855EB30091BA4C /* PDUSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDUSDK.release.xcconfig; sourceTree = "<group>"; };
 		B90DB3286B91C81662134AD4ACAFB99B /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		BAA7DE01AB3E3EDABC7AE6C25E1BFFE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BC80409C0D632F13F639E43683D3603E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		C5812C3968F4E1F4DCBC2413AD043A82 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		CB4C5FC2310CD56CA8F175139464C928 /* PDUSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDUSDK.debug.xcconfig; sourceTree = "<group>"; };
-		CB8AD7357CB898D6243D08A91CD6538D /* PDUSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PDUSDK.framework; sourceTree = "<group>"; };
+		C67352528DB88FE880ED323E75F33FBA /* DPApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPApi.h; path = PDUSDK.framework/Headers/DPApi.h; sourceTree = "<group>"; };
 		D20170F9BB7B86EDD8A320E4FEF17174 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		D206E31F0CDD4267034247DCED577BB0 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		D44F9EFFADD5F31B2B5041E23C17AEE0 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		D53B2004E08C309E37484978F4B74B4B /* PDUSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PDUSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D783DDC5140A7BE33CCC0B67657D45C8 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		DF55B5DE00337DFF53160177D9946483 /* Pods-PDUSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDUSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		E0DFB26F83F122440C1413821E26EB4E /* Pods-PDUSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PDUSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		E1D3CE66B84E471EE2F30D95C83C9724 /* Unit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Unit.h; path = PDUSDK.framework/Headers/Unit.h; sourceTree = "<group>"; };
 		E1FEBFC488291AB923B39E0FF682BE58 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		E62B6E64D38C45BDC11AF5050EE77D37 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		E71B26C81C2EBB477F0F50A9BEED9652 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
@@ -201,6 +199,7 @@
 		F14AFAE607529AEB25F64E2EC46281DC /* Pods-PDUSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDUSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3AF14B1425FB299F1965A219DBC9820 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		F5ACE211E8500EC1D77808BA8BBF9FCB /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
+		F856C9F7004850A311FAC2938FD604AD /* BaseOpenWidgetDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseOpenWidgetDelegate.h; path = PDUSDK.framework/Headers/BaseOpenWidgetDelegate.h; sourceTree = "<group>"; };
 		F9A08E33206D793B9FE1C5143CBDA58A /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		FE49B9E4F3BA6E01FA9412BAB0729EB5 /* Pods-PDUSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDUSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -233,14 +232,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		040769FF2BCA31219AC0DFDF0CDB5D6B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3BDBBC1B946F37A7CBC67EBA2457250E /* PDUSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		0D7526003B15AA7DAF5EEA78992F3AEB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +245,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		13586A067F992ECC58631AA632C73462 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				11777EC7D69884C1C85212639CD53CFA /* LICENSE */,
+				D53B2004E08C309E37484978F4B74B4B /* PDUSDK.podspec */,
+				2892CAF12D6625C1B336BB3DF6201509 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		28B542746F152254024B2EB7D89CB40B /* Pods-PDUSDK_Tests */ = {
@@ -271,37 +272,6 @@
 			);
 			name = "Pods-PDUSDK_Tests";
 			path = "Target Support Files/Pods-PDUSDK_Tests";
-			sourceTree = "<group>";
-		};
-		3BDBBC1B946F37A7CBC67EBA2457250E /* PDUSDK */ = {
-			isa = PBXGroup;
-			children = (
-				2533360451F198B9DCA2E7B1A3A28E5C /* Api.h */,
-				1FABB87F53B5439C92B39D00E85C4C5E /* App.h */,
-				015AA31E9783104FFA31812B2D20B7B7 /* BaseBackActionDelegate.h */,
-				277CB924B76606DCDF0E3082D2D23AB9 /* BaseOpenWidgetDelegate.h */,
-				36A1C22A9098AEBEEBFD5BF1280D4B62 /* Cmd.h */,
-				7364496FF322FDCCE1145A5035B9997D /* DPApi.h */,
-				A7D18E4968931A445DC7DC76009B4E66 /* NSObject+Unit.h */,
-				AD60E2E358961463B1621BF0EB75D237 /* PDUSDK.h */,
-				1EF0C504B68A8A2694FDEB56160C3FB7 /* PDUSDKApi.h */,
-				E1D3CE66B84E471EE2F30D95C83C9724 /* Unit.h */,
-				7F857B62A6B290F198337A072B35B705 /* Frameworks */,
-				A61E3030BCE91B402189016BEC34E149 /* Pod */,
-				3F3DD12BB88722198CABE05D5EA64036 /* Support Files */,
-			);
-			name = PDUSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3F3DD12BB88722198CABE05D5EA64036 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CB4C5FC2310CD56CA8F175139464C928 /* PDUSDK.debug.xcconfig */,
-				B3AD3AC3F614CBF76B855EB30091BA4C /* PDUSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PDUSDK";
 			sourceTree = "<group>";
 		};
 		432B86E988EFE08FA228FC5D500DD62F /* FMDB */ = {
@@ -380,12 +350,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7F857B62A6B290F198337A072B35B705 /* Frameworks */ = {
+		727D3AACBB3870FBEC993A7255144C05 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB8AD7357CB898D6243D08A91CD6538D /* PDUSDK.framework */,
+				A7D92859E94683866C064647109B3256 /* PDUSDK.debug.xcconfig */,
+				168EDCB9F109EB669DC2A95C81C754CF /* PDUSDK.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PDUSDK";
 			sourceTree = "<group>";
 		};
 		7F9516F45512850201BE3D7AB6C71FC2 /* UIKit */ = {
@@ -414,14 +386,12 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		A61E3030BCE91B402189016BEC34E149 /* Pod */ = {
+		8D50DD883ED6C1058CDC1F6EC61EF661 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BAA7DE01AB3E3EDABC7AE6C25E1BFFE5 /* LICENSE */,
-				88655FC2F518D2B056AA69F37CE028BF /* PDUSDK.podspec */,
-				848311E15C5D369C4EE6FB3D3A244BB0 /* README.md */,
+				428D09729021B2FB847B5BA019217058 /* PDUSDK.framework */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A7483571FBBA92579B065013019A9564 /* Support Files */ = {
@@ -472,6 +442,26 @@
 			name = standard;
 			sourceTree = "<group>";
 		};
+		C7811F3DF9F59F5A5AC07A8148A64106 /* PDUSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1B72994D1BF0700F2D37ACEFBAC30CCA /* Api.h */,
+				4BC324BF4A283B073D436217D8C42981 /* App.h */,
+				9FF25A276996A8E1158DB48B508F6FDF /* BaseBackActionDelegate.h */,
+				F856C9F7004850A311FAC2938FD604AD /* BaseOpenWidgetDelegate.h */,
+				5ED04CE1CD73DB7B03E98199E5042D64 /* Cmd.h */,
+				C67352528DB88FE880ED323E75F33FBA /* DPApi.h */,
+				08C9239B1AFA8DB7F1F77C75F8BB8679 /* PDUSDK.h */,
+				6B8553153CDC25E7B8FADFE5BA01D0C2 /* PDUSDKApi.h */,
+				454840AD619A1FE0A819BCA00F9DB31C /* Unit.h */,
+				8D50DD883ED6C1058CDC1F6EC61EF661 /* Frameworks */,
+				13586A067F992ECC58631AA632C73462 /* Pod */,
+				727D3AACBB3870FBEC993A7255144C05 /* Support Files */,
+			);
+			name = PDUSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C78BE93C35B3CB7AB916539088A62B0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,7 +476,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				040769FF2BCA31219AC0DFDF0CDB5D6B /* Development Pods */,
+				D8197FCA2BDA5FF1DF95F607387DCCD3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				67D958BE12F89DC3B33BF6E724C6A7AE /* Pods */,
 				C78BE93C35B3CB7AB916539088A62B0B /* Products */,
@@ -500,6 +490,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8197FCA2BDA5FF1DF95F607387DCCD3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7811F3DF9F59F5A5AC07A8148A64106 /* PDUSDK */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -604,9 +602,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				14866E9FDA071EC6F423624119F536A6 /* PBXTargetDependency */,
-				6C240EDA53E875F7406CEFB843E6DF57 /* PBXTargetDependency */,
-				DD2121253D14F7F731766442F4ED705B /* PBXTargetDependency */,
+				06F085D9DCDDDFDBC2D8D7C0EF181BAE /* PBXTargetDependency */,
+				6736249892A919CE14230979ED332C8B /* PBXTargetDependency */,
+				171CE55377574ABCEDBABA8DFDC1EAE9 /* PBXTargetDependency */,
 			);
 			name = "Pods-PDUSDK_Tests";
 			productName = Pods_PDUSDK_Tests;
@@ -715,35 +713,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		025529DED4A133C013F7A2D30D7D81C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 26BBE12C7B3ED4833232509088B202B3 /* PBXContainerItemProxy */;
-		};
-		14866E9FDA071EC6F423624119F536A6 /* PBXTargetDependency */ = {
+		06F085D9DCDDDFDBC2D8D7C0EF181BAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 69CFC42824665227A0603CDD15DB0E64 /* PBXContainerItemProxy */;
+			targetProxy = 6822FED32CC7F296ED2E5999BCC7051A /* PBXContainerItemProxy */;
 		};
-		6C240EDA53E875F7406CEFB843E6DF57 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 1EF02A549CCA8E37D715E0AB141D13A9 /* PBXContainerItemProxy */;
-		};
-		CA1B386AA121D6E8D818FA6118045AAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 9779EC865189877C3A326963F72907D3 /* PBXContainerItemProxy */;
-		};
-		DD2121253D14F7F731766442F4ED705B /* PBXTargetDependency */ = {
+		171CE55377574ABCEDBABA8DFDC1EAE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PDUSDK;
 			target = E877FCAE129C8954EE085550165FA927 /* PDUSDK */;
-			targetProxy = 1C8B52706A9A5D1866E8FED37E62D9E5 /* PBXContainerItemProxy */;
+			targetProxy = 2CCF9897A38046FDC17B28F2F12C6E73 /* PBXContainerItemProxy */;
+		};
+		432C0E4C506CD6F3BEA012C9539EE9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 4D3C096FF1F69A07EB027F7E89C769BB /* PBXContainerItemProxy */;
+		};
+		6736249892A919CE14230979ED332C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = E99653C7ABBBFCBA450BA0F32D5B55F0 /* PBXContainerItemProxy */;
+		};
+		F6470C254E2B65A6FF74A7B749224DD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 13F9C756E3BD524FC3C79E0C19651E88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -812,7 +810,7 @@
 		};
 		619C68F9CB594BEEA7EAB35DFFC507B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3AD3AC3F614CBF76B855EB30091BA4C /* PDUSDK.release.xcconfig */;
+			baseConfigurationReference = 168EDCB9F109EB669DC2A95C81C754CF /* PDUSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -986,7 +984,7 @@
 		};
 		79E5FFC1D3CC5214A1DA811ADA72C56F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB4C5FC2310CD56CA8F175139464C928 /* PDUSDK.debug.xcconfig */;
+			baseConfigurationReference = A7D92859E94683866C064647109B3256 /* PDUSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

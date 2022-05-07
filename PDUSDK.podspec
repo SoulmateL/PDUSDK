@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PDUSDK'
-  s.version          = '1.4.0'
-  s.summary          = 'PUDSDK3.0  插入数据验证表字段是否存在1'
+  s.version          = '1.5.0'
+  s.summary          = 'PUDSDK3.0  优化升级'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
