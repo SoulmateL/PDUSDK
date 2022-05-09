@@ -1,6 +1,6 @@
 {
   "name": "PDUSDK",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "summary": "PUDSDK3.0  优化升级",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/SoulmateL/PDUSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SoulmateL/PDUSDK.git",
-    "tag": "1.5.0"
+    "tag": "1.5.1"
   },
   "platforms": {
     "ios": "9.0"

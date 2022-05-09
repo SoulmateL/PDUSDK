@@ -18,14 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (class,nonatomic,copy) NSString *startupFirstURLString;
 /// 备用启动地址
 @property (class,nonatomic,copy) NSString *spareURLString;
-
-/// 控制是否开启输出日志
-/// @param enable 默认NO
-+ (void)setLogEnable:(BOOL)enable;
-
-/// 获取日志输出状态
-+ (BOOL)getLogEnable;
-
+/// 是否开启输出日志 默认NO
+@property (class,nonatomic,assign) BOOL logEnable;
 
 @end
 
