@@ -13,29 +13,31 @@ NS_ASSUME_NONNULL_BEGIN
 @interface App : NSObject
 
 /// 获取唯一标识
-+ (NSString *)getUniqueIdentifier;
++ (nullable NSString *)getUniqueIdentifier;
 
 /// 获取当前设备型号
-+ (NSString *)getDeviceIdentifier;
++ (nullable NSString *)getDeviceIdentifier;
 
 /// 获取手机系统版本
-+ (NSString *)getSystemVersion;
++ (nullable NSString *)getSystemVersion;
 
 /// 获取设备型号和手机版本号
-+ (NSString *)getCurrentDeviceModelAndSystemVersion;
++ (nullable NSString *)getCurrentDeviceModelAndSystemVersion;
 
 /// 获取系统App名字
-+ (NSString *)getAppName;
++ (nullable NSString *)getAppName;
 
 /// 获取系统App版本号
-+ (NSString *)getSystemAppVersion;
++ (nullable NSString *)getSystemAppVersion;
 
 /// 获取品牌key
-+ (NSString *)getBrandKey;
++ (nullable NSString *)getBrandKey;
 
 /// 获取内部版本号
-+ (NSString *)getAppVersion;
++ (nullable NSString *)getAppVersion;
 
+/// 获取接口验证密钥
++ (nullable NSString *)getSecretKey;
 @end
 
 NS_ASSUME_NONNULL_END
