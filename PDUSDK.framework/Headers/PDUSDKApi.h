@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (class,nonatomic,copy) NSString *spareURLString;
 /// 是否开启输出日志 默认NO
 @property (class,nonatomic,assign) BOOL logEnable;
+/// 是否开启接口加密 默认YES
+@property (class,nonatomic,assign) BOOL apiEncryption;
 
 @end
 
