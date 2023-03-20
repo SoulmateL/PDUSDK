@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ApiResponseModel : NSObject
 @property (nonatomic, strong, nullable) NSDictionary *data;
+@property (nonatomic, strong, nullable) id rawData;
 @property (nonatomic, assign) NSInteger code;
 @property (nonatomic, strong, nullable) NSString *message;
 @end
