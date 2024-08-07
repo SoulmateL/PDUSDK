@@ -15,14 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 获取唯一标识
 + (nullable NSString *)getUniqueIdentifier;
 
-/// 获取当前设备型号
-+ (nullable NSString *)getDeviceIdentifier;
-
-/// 获取手机系统版本
-+ (nullable NSString *)getSystemVersion;
-
-/// 获取设备型号和手机版本号
-+ (nullable NSString *)getCurrentDeviceModelAndSystemVersion;
+/// 获取设备信息
++ (nullable NSString *)getCurrentDeviceInfo;
 
 /// 获取系统App名字
 + (nullable NSString *)getAppName;
