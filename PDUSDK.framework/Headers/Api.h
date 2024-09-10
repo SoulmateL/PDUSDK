@@ -11,6 +11,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+extern NSString * _Nonnull const kHeaderAppBrandkey;
+extern NSString * _Nonnull const kHeaderAppDeviceKey;
+extern NSString * _Nonnull const kHeaderAppVersionKey;
+extern NSString * _Nonnull const kHeaderAuthorizationKey;
+extern NSString * _Nonnull const kHeaderProvinceKey;
+
 @class ApiResponseModel;
 
 @interface ApiResponseModel : NSObject
