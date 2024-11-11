@@ -1,6 +1,6 @@
 {
   "name": "PDUSDK",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "summary": "PUDSDK3.0  fix bug",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/SoulmateL/PDUSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SoulmateL/PDUSDK.git",
-    "tag": "1.5.6"
+    "tag": "1.5.7"
   },
   "platforms": {
     "ios": "13.0"
