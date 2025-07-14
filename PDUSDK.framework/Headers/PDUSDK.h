@@ -16,13 +16,22 @@ FOUNDATION_EXPORT const unsigned char PDUSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PDUSDK/PublicHeader.h>
 
-#import <PDUSDK/Api.h>
-#import <PDUSDK/App.h>
-#import <PDUSDK/Cmd.h>
-#import <PDUSDK/Unit.h>
-#import <PDUSDK/DPApi.h>
-#import <PDUSDK/PDUSDKApi.h>
-#import <PDUSDK/BaseBackActionDelegate.h>
-#import <PDUSDK/BaseOpenWidgetDelegate.h>
+//#import <PDUSDK/Api.h>
+//#import <PDUSDK/App.h>
+//#import <PDUSDK/Cmd.h>
+//#import <PDUSDK/Unit.h>
+//#import <PDUSDK/DPApi.h>
+//#import <PDUSDK/PDUSDKApi.h>
+//#import <PDUSDK/BaseBackActionDelegate.h>
+//#import <PDUSDK/BaseOpenWidgetDelegate.h>
+
+#import "Api.h"
+#import "App.h"
+#import "Cmd.h"
+#import "Unit.h"
+#import "DPApi.h"
+#import "PDUSDKApi.h"
+#import "BaseBackActionDelegate.h"
+#import "BaseOpenWidgetDelegate.h"
 
 
