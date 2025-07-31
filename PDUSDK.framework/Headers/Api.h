@@ -74,8 +74,8 @@ typedef void(^PDUFailureBlcok)(ApiResponseModel *failureModel);
 /// 发起请求
 /// @param success 成功回调
 /// @param failure 失败回调
-- (void)startRequestSuccess:(PDUSuccessBlcok)success
-                    failure:(PDUFailureBlcok)failure;
+- (NSURLSessionDataTask *)startRequestSuccess:(PDUSuccessBlcok)success
+                                      failure:(PDUFailureBlcok)failure;
 
 
 
@@ -85,30 +85,30 @@ typedef void(^PDUFailureBlcok)(ApiResponseModel *failureModel);
 /// @param header 请求头
 /// @param success 成功回调
 /// @param failure 失败回调
-+ (void)startRequetWithInterfaceName:(nonnull NSString *)interfaceName
-                          parameters:(nullable NSDictionary *)parameters
-                              header:(nullable NSDictionary *)header
-                             Success:(nullable PDUSuccessBlcok)success
-                             failure:(nullable PDUFailureBlcok)failure;
++ (NSURLSessionDataTask *)startRequetWithInterfaceName:(nonnull NSString *)interfaceName
+                                            parameters:(nullable NSDictionary *)parameters
+                                                header:(nullable NSDictionary *)header
+                                               success:(nullable PDUSuccessBlcok)success
+                                               failure:(nullable PDUFailureBlcok)failure;
 
 /// 类方法 接口名:interfaceName  请求参数:parameters  成功回调:success  失败回调:failure
 /// @param interfaceName 接口名
 /// @param parameters 请求参数
 /// @param success 成功回调
 /// @param failure 失败回调
-+ (void)startRequetWithInterfaceName:(nonnull NSString *)interfaceName
-                          parameters:(nullable NSDictionary *)parameters
-                             Success:(nullable PDUSuccessBlcok)success
-                             failure:(nullable PDUFailureBlcok)failure;
++ (NSURLSessionDataTask *)startRequetWithInterfaceName:(nonnull NSString *)interfaceName
+                                            parameters:(nullable NSDictionary *)parameters
+                                               success:(nullable PDUSuccessBlcok)success
+                                               failure:(nullable PDUFailureBlcok)failure;
 
 
 /// 类方法 接口名:interfaceName  成功回调:success  失败回调:failure
 /// @param interfaceName 接口名
 /// @param success 成功回调
 /// @param failure 失败回调
-+ (void)startRequetWithInterfaceName:(nonnull NSString *)interfaceName
-                             Success:(nullable PDUSuccessBlcok)success
-                             failure:(nullable PDUFailureBlcok)failure;
++ (NSURLSessionDataTask *)startRequetWithInterfaceName:(nonnull NSString *)interfaceName
+                                               success:(nullable PDUSuccessBlcok)success
+                                               failure:(nullable PDUFailureBlcok)failure;
 
 
 
